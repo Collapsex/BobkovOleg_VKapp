@@ -13,8 +13,6 @@
 		C756A4901F9A1C6100EF008F /* BobkovOleg_VKapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C756A48E1F9A1C6100EF008F /* BobkovOleg_VKapp.xcdatamodeld */; };
 		C756A4921F9A1C6100EF008F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C756A4911F9A1C6100EF008F /* Assets.xcassets */; };
 		C756A4951F9A1C6100EF008F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C756A4931F9A1C6100EF008F /* LaunchScreen.storyboard */; };
-		C756A4A01F9A1C6100EF008F /* BobkovOleg_VKappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C756A49F1F9A1C6100EF008F /* BobkovOleg_VKappTests.swift */; };
-		C756A4AB1F9A1C6100EF008F /* BobkovOleg_VKappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C756A4AA1F9A1C6100EF008F /* BobkovOleg_VKappUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +42,7 @@
 		C756A4941F9A1C6100EF008F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C756A4961F9A1C6100EF008F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C756A49B1F9A1C6100EF008F /* BobkovOleg_VKappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BobkovOleg_VKappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C756A49F1F9A1C6100EF008F /* BobkovOleg_VKappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobkovOleg_VKappTests.swift; sourceTree = "<group>"; };
-		C756A4A11F9A1C6100EF008F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C756A4A61F9A1C6100EF008F /* BobkovOleg_VKappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BobkovOleg_VKappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C756A4AA1F9A1C6100EF008F /* BobkovOleg_VKappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobkovOleg_VKappUITests.swift; sourceTree = "<group>"; };
-		C756A4AC1F9A1C6100EF008F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				C756A4861F9A1C6100EF008F /* BobkovOleg_VKapp */,
-				C756A49E1F9A1C6100EF008F /* BobkovOleg_VKappTests */,
-				C756A4A91F9A1C6100EF008F /* BobkovOleg_VKappUITests */,
 				C756A4851F9A1C6100EF008F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				C756A48E1F9A1C6100EF008F /* BobkovOleg_VKapp.xcdatamodeld */,
 			);
 			path = BobkovOleg_VKapp;
-			sourceTree = "<group>";
-		};
-		C756A49E1F9A1C6100EF008F /* BobkovOleg_VKappTests */ = {
-			isa = PBXGroup;
-			children = (
-				C756A49F1F9A1C6100EF008F /* BobkovOleg_VKappTests.swift */,
-				C756A4A11F9A1C6100EF008F /* Info.plist */,
-			);
-			path = BobkovOleg_VKappTests;
-			sourceTree = "<group>";
-		};
-		C756A4A91F9A1C6100EF008F /* BobkovOleg_VKappUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C756A4AA1F9A1C6100EF008F /* BobkovOleg_VKappUITests.swift */,
-				C756A4AC1F9A1C6100EF008F /* Info.plist */,
-			);
-			path = BobkovOleg_VKappUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C756A4A01F9A1C6100EF008F /* BobkovOleg_VKappTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C756A4AB1F9A1C6100EF008F /* BobkovOleg_VKappUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
